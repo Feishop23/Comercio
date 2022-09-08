@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import getConfig from '../../utils/getConfig'
-import { PurchaseCard } from '../purchases/PurchaseCard'
+import  PurchaseCard  from '../purchases/PurchaseCard'
 
 const Purchases = () => {
   const [purchases, setPurchases] = useState()
