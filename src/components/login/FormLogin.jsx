@@ -23,7 +23,7 @@ const FormLogin = ({setIsLooged}) => {
 
   return (
     <form onSubmit={handleSubmit(submit)} className='login__form'>
-      <h2 className='login__title'>Welcome! <br/> Enter your email and password to continue</h2>
+      <h2 className='login__title'> HELLO! Enter your email and password to continue</h2>
       <div className='login__div'>
         <label className='login__label' htmlFor="email">Email</label>
         <input 
